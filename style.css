@@ -167,29 +167,80 @@ h1 {
   align-items: center;
   gap: 8px;
 }
-
-
 .watch-btn:hover {
   border-color: greenyellow;
 }
 
-/* .yt-button {
-  width: 22px;
-  height: 22px;
-  border: 1.5px solid rgba(255, 255, 255, 0.7);
-  border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
+/*problem-section*/
+
+.problem-section {
+  background: #FFFFFF;
+  padding: 80px 24px;
 }
 
-.yt-button::after {
-  content: '';
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 4px 0 4px 8px;
-  border-color: transparent transparent transparent #fff;
-  margin-left: 2px;
-} */
+.problem-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #001931;
+  margin-bottom: 12px;
+}
+
+.section-sub {
+  font-size: 16px;
+  color: #627382;
+  margin-bottom: 3rem;
+  line-height: 20px;
+}
+.cards-grid {
+  display: flex;
+  gap: 24px;
+}
+.card {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 12px;
+  padding: 57px 24px 81.5px;
+  text-align: center;
+  box-shadow: 0 4px 20px #0000001A;
+}
+
+.card:hover {
+  background-color:navajowhite;
+}
+.card-icon {
+  width: 56px;
+  height: 56px;
+  background: #F95555;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px;
+}
+
+.card-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+  line-height: 20px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #627182;
+  line-height: 20px;
+}
+
+
