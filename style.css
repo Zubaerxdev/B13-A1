@@ -372,7 +372,6 @@ h1 {
 }
 
 
-/*footer*/
 .footer {
   background: #0f172a;
   padding: 60px 24px 30px;
@@ -398,7 +397,6 @@ h1 {
 .footer-social {
   display: flex;
   flex-direction: column;
-  /* align-items: flex-end; */
   gap: 14px;
 }
 
